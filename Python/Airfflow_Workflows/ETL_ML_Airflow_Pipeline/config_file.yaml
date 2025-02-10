@@ -1,0 +1,35 @@
+app_name: btc_data_dag
+app_version: 1.0.0
+app_description: Extract, transform, load BTC data and predict volatility with random forrest tree
+app_tag: Pepijn
+app_owner: pepijnschouten
+
+kraken_url: "https://api.kraken.com/0/public/OHLC?pair=XXBTZUSD&interval=1440"
+conn_uri: "postgresql+psycopg2://airflow_user:airflow_pass@localhost:5432/airflow_db"
+table_name: btc_data
+
+column_names: 
+  - date
+  - open 
+  - high
+  - low
+  - close
+
+create_query: >
+    CREATE TABLE IF NOT EXISTS btc_data (
+        date DATE PRIMARY KEY,
+        open FLOAT NOT NULL,
+        high FLOAT NOT NULL,
+        low FLOAT NOT NULL,
+        close FLOAT NOT NULL
+      );
+
+rf_features:
+  - price
+  - log_returns
+
+save_path_features: ml_features.csv
+save_path_hist: btc_historical_close_price.html
+save_path_pred: predictions_scatter_plot.html
+
+api_post_url: "http://127.0.0.1:8000/model_results/"

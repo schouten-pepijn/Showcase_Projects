@@ -1,0 +1,35 @@
+INFO:root:train mse: 826754401
+INFO:root:train rmse: 28753
+INFO:root:train r2: 0.8657669494737958
+INFO:root:test mse: 705431241
+INFO:root:test rmse: 26559
+INFO:root:test r2: 0.907047086368705
+INFO:root:Average house price: 163000
+INFO:root:train mse: 826754401
+INFO:root:train rmse: 28753
+INFO:root:train r2: 0.8657669494737958
+INFO:root:test mse: 705431241
+INFO:root:test rmse: 26559
+INFO:root:test r2: 0.907047086368705
+INFO:root:Average house price: 163000
+INFO:root:train mse: 826754401
+INFO:root:train rmse: 28753
+INFO:root:train r2: 0.8657669494737958
+INFO:root:test mse: 705431241
+INFO:root:test rmse: 26559
+INFO:root:test r2: 0.907047086368705
+INFO:root:Average house price: 163000
+INFO:root:train mse: 826754401
+INFO:root:train rmse: 28753
+INFO:root:train r2: 0.8657669494737958
+INFO:root:test mse: 705431241
+INFO:root:test rmse: 26559
+INFO:root:test r2: 0.907047086368705
+INFO:root:Average house price: 163000
+INFO:root:train mse: 826754401
+INFO:root:train rmse: 28753
+INFO:root:train r2: 0.8657669494737958
+INFO:root:test mse: 705431241
+INFO:root:test rmse: 26559
+INFO:root:test r2: 0.907047086368705
+INFO:root:Average house price: 163000
